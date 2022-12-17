@@ -62,5 +62,8 @@ export default defineConfig({
   hash: true,
   mfsu: {},
   fastRefresh: {},
-  dynamicImport:{}
+  dynamicImport:{},
+  dva: {
+    immer: true,
+  },
 });

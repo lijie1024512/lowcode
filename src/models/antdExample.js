@@ -1,4 +1,4 @@
-
+import {produce} from 'immer'
 export default {
 
   namespace: 'example',
